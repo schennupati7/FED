@@ -1,0 +1,374 @@
+/*
+Custom CSS.
+*/
+
+@font-face {
+    font-family: Georgia;
+    src: url(../fonts/Georgia-Regular.ttf);
+}
+
+@font-face {
+    font-family: AlexBrush;
+    src: url(../fonts/AlexBrush-Regular.ttf);
+}
+
+@media (max-width: 768px) {
+    .navbar-header .btn {
+        outline: 0;
+    }
+
+    .btn-default, .btn-default:focus, .btn-default:active {
+        border-color: #ffffff;
+    }
+
+    .navbar {
+        margin: 0px;
+    }
+
+    .right-items {
+        font-size: 20pt;
+        text-justify: distribute;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+body {
+    font-family: Georgia;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5 {
+    display: inline;
+    color: #7494b7;
+}
+
+a {
+    color: #666666;
+}
+
+.top-border, .footer-border {
+    background: url("../img/header-image.png") repeat;
+    height: 5px;
+}
+
+footer > a {
+    color: #000;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.container {
+    background: #ffffff;
+}
+
+.site {
+    background: url("../img/background.PNG") repeat;
+    /*padding: 10px;*/
+}
+
+.font-bold {
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+.margin-10 {
+    margin: 10px;
+}
+
+.padding-10 {
+    padding: 10px;
+}
+
+.padding-5 {
+    padding: 5px;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+/*Menu Related*/
+.navbar-default {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #000000;
+}
+
+.featured-text {
+    font-size: 20pt;
+    font-style: italic;
+    line-height: 1;
+    font-family: AlexBrush;
+}
+
+.signature {
+    font-size: 24pt;
+    font-style: italic;
+    font-family: AlexBrush;
+    line-height: 1;
+}
+
+.vertical-seperator {
+    border-right: solid 1px #b2b2b2;
+    padding-right: 10px;
+}
+
+.top-bar {
+    font-family: Georgia, Georgia, Times, "Times New Roman", serif;
+    font-style: italic;
+    font-size: 13pt;
+    line-height: 1;
+    color: #666666;
+    border-bottom: 1px solid #b2b2b2;
+    vertical-align: bottom;
+}
+
+.right-items {
+    padding-top: 5px;
+    font-size: 10pt;
+    vertical-align: middle;
+}
+
+.middle-bar {
+    padding: 30px;
+    margin: 1px;
+    /*border-bottom: 1px solid #b2b2b2;*/
+    -webkit-box-shadow: 0 8px 6px -6px #b2b2b2;
+    -moz-box-shadow: 0 8px 6px -6px #b2b2b2;
+    box-shadow: 0 8px 6px -6px #b2b2b2;
+    vertical-align: middle;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.products {
+    border-bottom: 1px solid #b2b2b2;
+}
+
+.product {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.thumbnail {
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+.thumbnail img {
+    min-height: 200px;
+    max-height: 200px;
+    padding: 10px 20px;
+}
+
+.product .product-text {
+    padding-top: 5px;
+    line-height: 1;
+    margin: 0;
+}
+
+.product-price {
+    line-height: 1;
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+.footer .nav > li > a {
+    position: relative;
+    display: block;
+    padding: 3px 0px;
+}
+
+.nav-pills > li > a {
+    padding: 0px;
+}
+
+.footer {
+    background: linear-gradient(to bottom, #dfdfdf -10%, #ffffff 100%);
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.footer .nav > li > a:focus, .footer .nav > li > a:hover {
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.footer .newsletter {
+    font-style: italic;
+}
+
+.powered-by {
+    margin: 20px;
+}
+
+.powered-by .text {
+    color: #b2b2b2;
+    font-size: 10pt;
+}
+
+.btn-social-icon {
+    position: relative;
+    padding-left: 44px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 34px;
+    width: 34px;
+    padding: 0
+}
+
+.btn-social-icon :first-child {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 32px;
+    line-height: 34px;
+    font-size: 1.6em;
+    text-align: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.2)
+}
+
+.btn-social-icon :first-child {
+    border: none;
+    text-align: center;
+    width: 100% !important
+}
+
+.btn-facebook {
+    color: #fff;
+    background-color: #3b5998;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-facebook:hover, .btn-facebook:focus, .btn-facebook:active, .btn-facebook.active, .open .dropdown-toggle.btn-facebook {
+    color: #fff;
+    background-color: #30487b;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-facebook:active, .btn-facebook.active, .open .dropdown-toggle.btn-facebook {
+    background-image: none
+}
+
+.btn-twitter {
+    color: #fff;
+    background-color: #55acee;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-twitter:hover, .btn-twitter:focus, .btn-twitter:active, .btn-twitter.active, .open .dropdown-toggle.btn-twitter {
+    color: #fff;
+    background-color: #309aea;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-twitter:active, .btn-twitter.active, .open .dropdown-toggle.btn-twitter {
+    background-image: none
+}
+
+.btn-twitter.disabled, .btn-twitter[disabled], fieldset[disabled] .btn-twitter, .btn-twitter.disabled:hover, .btn-twitter[disabled]:hover, fieldset[disabled] .btn-twitter:hover, .btn-twitter.disabled:focus, .btn-twitter[disabled]:focus, fieldset[disabled] .btn-twitter:focus, .btn-twitter.disabled:active, .btn-twitter[disabled]:active, fieldset[disabled] .btn-twitter:active, .btn-twitter.disabled.active, .btn-twitter[disabled].active, fieldset[disabled] .btn-twitter.active {
+    background-color: #55acee;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-pinterest {
+    color: #fff;
+    background-color: #cb2027;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-pinterest:focus, .btn-pinterest.focus {
+    color: #fff;
+    background-color: #9f191f;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-pinterest:hover {
+    color: #fff;
+    background-color: #9f191f;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-pinterest:active, .btn-pinterest.active, .open > .dropdown-toggle.btn-pinterest {
+    color: #fff;
+    background-color: #9f191f;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-pinterest:active:hover, .btn-pinterest.active:hover, .open > .dropdown-toggle.btn-pinterest:hover, .btn-pinterest:active:focus, .btn-pinterest.active:focus, .open > .dropdown-toggle.btn-pinterest:focus, .btn-pinterest:active.focus, .btn-pinterest.active.focus, .open > .dropdown-toggle.btn-pinterest.focus {
+    color: #fff;
+    background-color: #801419;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-pinterest:active, .btn-pinterest.active, .open > .dropdown-toggle.btn-pinterest {
+    background-image: none
+}
+
+.btn-pinterest.disabled:hover, .btn-pinterest[disabled]:hover, fieldset[disabled] .btn-pinterest:hover, .btn-pinterest.disabled:focus, .btn-pinterest[disabled]:focus, fieldset[disabled] .btn-pinterest:focus, .btn-pinterest.disabled.focus, .btn-pinterest[disabled].focus, fieldset[disabled] .btn-pinterest.focus {
+    background-color: #cb2027;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-google-plus {
+    color: #fff;
+    background-color: #dd4b39;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-google-plus:hover, .btn-google-plus:focus, .btn-google-plus:active, .btn-google-plus.active, .open .dropdown-toggle.btn-google-plus {
+    color: #fff;
+    background-color: #ca3523;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-google-plus:active, .btn-google-plus.active, .open .dropdown-toggle.btn-google-plus {
+    background-image: none
+}
+
+.btn-google-plus.disabled, .btn-google-plus[disabled], fieldset[disabled] .btn-google-plus, .btn-google-plus.disabled:hover, .btn-google-plus[disabled]:hover, fieldset[disabled] .btn-google-plus:hover, .btn-google-plus.disabled:focus, .btn-google-plus[disabled]:focus, fieldset[disabled] .btn-google-plus:focus, .btn-google-plus.disabled:active, .btn-google-plus[disabled]:active, fieldset[disabled] .btn-google-plus:active, .btn-google-plus.disabled.active, .btn-google-plus[disabled].active, fieldset[disabled] .btn-google-plus.active {
+    background-color: #dd4b39;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+@media (min-width: 768px) {
+    .navbar-nav > li > a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: black;
+    }
+
+}
+
+/*Search button inside textbox by relative positioning*/
+
+.inner-addon {
+    position: relative;
+}
+
+.inner-addon .glyphicon {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+}
+
+.right-addon .glyphicon {
+    right: 0px;
+}
+
+.right-addon input {
+    padding-right: 30px;
+}
+
